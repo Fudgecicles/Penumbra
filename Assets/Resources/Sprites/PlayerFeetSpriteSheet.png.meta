@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 31dabf4a20f214a448e57ad55612f93b
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 25
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: PlayerFeetSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 146
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 146
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 146
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 146
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 146
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 146
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 126
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 126
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 126
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 126
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 126
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 126
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 86
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 86
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 86
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 86
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 86
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 86
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 66
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 66
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 66
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 66
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 46
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+    - name: PlayerFeetSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+  spritePackingTag: 
+  userData: 

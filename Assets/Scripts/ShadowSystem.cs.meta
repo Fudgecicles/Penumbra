@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 43ad160465b84ad4586c29f09a8f5c2b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shadowTexture: {instanceID: 0}
+  - lightDistanceShader: {fileID: 4800000, guid: 7619dc64791c8422eb6090776b30dd46,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
