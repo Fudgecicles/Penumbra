@@ -23,8 +23,8 @@ public class Player : MonoBehaviour {
 	bool xMoving;
 	bool yMoving;
 	public GameObject fireCone;
-	bool reloading;
-	float reloadTimer;
+	public bool reloading;
+	public float reloadTimer;
 	enum Direction {up, down, left, right, upRight, upLeft, downLeft, downRight};
 	GameObject light;
 	Transform gun;
@@ -33,6 +33,7 @@ public class Player : MonoBehaviour {
 	GameObject deathParticle;
 	Color[] colors;
 	AudioSource[] sources;
+	bool fire;
 	
 	// Use this for initialization
 	void Start () {
@@ -66,9 +67,13 @@ public class Player : MonoBehaviour {
 		//Debug.Log(grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isBotOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isRightOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isLeftOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isTopOpen());
 		if(Time.time-reloadTimer >2){
 			reloading = false;
-			if(Input.GetKeyDown(KeyCode.P))
+			if(fire){
+				reloadTimer = Time.time;
 				StartCoroutine("startFire");
+				fire = false;
+			}
 		}
+
 		//inputs
 		
 
@@ -94,13 +99,20 @@ public class Player : MonoBehaviour {
 		// fire gun
 	}
 
+	public void shootGun(){
+		if(Time.time-reloadTimer>2){
+			fire = true;
+			reloading = true;
+		}
+	}
 	public void setID(int num){
 		id = num;
+		Debug.Log(id);
 		gun = transform.Find("Dude/Gun");
 		colors = new Color[4];
 		colors[0] = new Color(1,1,1);
 		colors[1] = new Color(.89f, .086f,.086f);
-		colors[2] = new Color(1,0,.086f);
+		colors[2] = new Color(.365f,0,1);
 		colors[3] = new Color(1,.565f,.565f);
 		gun.GetComponent<SpriteRenderer>().color = colors[id];
 	}
@@ -163,6 +175,7 @@ public class Player : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if(col.tag == "Bullet"){
 			Instantiate(deathParticle,transform.position,Quaternion.identity);
+			grid.setTaken((int)gridPosition.x,(int)gridPosition.y,lastSpot);
 			grid.respawnPlayer(id);
 			Destroy(this.gameObject);
 		}
@@ -183,7 +196,7 @@ public class Player : MonoBehaviour {
 		sources[0].Play();
 		yield return new WaitForSeconds(.5f);
 		fireGun();
-		yield return new WaitForSeconds(.1f);
+		yield return new WaitForSeconds(.2f);
 		sources[2].Play ();
 	}
 

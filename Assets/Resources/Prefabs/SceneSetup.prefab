@@ -504,6 +504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cde3866498c4f48bf551b32a1f5bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPlayer: 0
+  numPlayers: 0
+  player: {fileID: 100010, guid: 98330a1a76ddb7d4884b5dd2a5f59862, type: 2}
   mapBackground: {fileID: 100008}
 --- !u!114 &11400010
 MonoBehaviour:

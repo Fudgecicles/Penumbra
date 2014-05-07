@@ -2952,6 +2952,10 @@ Prefab:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
+      propertyPath: spawnPlayer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400010, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
     - {fileID: 11400004, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
@@ -13242,6 +13246,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7cde3866498c4f48bf551b32a1f5bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPlayer: 1
+  numPlayers: 0
+  player: {fileID: 100010, guid: 98330a1a76ddb7d4884b5dd2a5f59862, type: 2}
   mapBackground: {fileID: 759837813}
 --- !u!114 &786260683
 MonoBehaviour:

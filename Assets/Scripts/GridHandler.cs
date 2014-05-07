@@ -16,9 +16,12 @@ public class GridHandler : MonoBehaviour {
 	private int xSize;
 	private int ySize;
 	private int[] lives;
+	GameObject[] spawns;
+	InputHandler inputs;
 
 	// Use this for initialization
 	void Awake () {
+
 		lives = new int[numPlayers];
 		for(int k=0;k<numPlayers;k++){
 			lives[k] = 3;
@@ -41,10 +44,25 @@ public class GridHandler : MonoBehaviour {
 		if(spawnPlayer){
 			StartCoroutine(initialSpawn());
 		}
+		else{
+			spawns = new GameObject[4];
+			spawns[0] = GameObject.Find ("spawn1");
+			spawns[1] = GameObject.Find("spawn2");
+			spawns[2] = GameObject.Find("spawn3");
+			spawns[3] = GameObject.Find("spawn4");
+			for(int k=0;k<numPlayers;k++){
+				inputs.players[k] = predeterminedSpawn(k);
+			}
+		}
 	}
 
 	// Update is called once per frame
 	void Update () {
+
+	}
+
+	public void setInput(InputHandler i){
+		inputs = i;
 	}
 
 	IEnumerator initialSpawn(){
@@ -56,27 +74,40 @@ public class GridHandler : MonoBehaviour {
 			Vector2 spawn = (Vector2)availableSpawns.GetByIndex(Random.Range(0,availableSpawns.Count));
 			GameObject temp = (GameObject)Instantiate(player,gridToWorld(spawn),Quaternion.identity);
 			Player p = temp.GetComponent<Player>();
-			p.id = k;
+			p.setID(k);
 			p.gridPosition = spawn;
 			players.Add(p);
-
+			inputs.players = players.ToArray();
 		}
 	}
 
 	public void respawnPlayer(int id){
-		lives[id] -= 1;
-		if(lives[id]>0){
-			availableSpawns = new SortedList();
-			getValidSpawns();
-			Vector2 spawn = (Vector2)availableSpawns.GetByIndex(Random.Range(0,availableSpawns.Count));
-			GameObject temp = (GameObject)Instantiate(player,gridToWorld(spawn),Quaternion.identity);
-			Player p = temp.GetComponent<Player>();
-			p.id = id;
-			p.gridPosition = spawn;
-			players[id] = p;
+		if(spawnPlayer){
+			lives[id] -= 1;
+			if(lives[id]>0){
+				availableSpawns = new SortedList();
+				getValidSpawns();
+				Vector2 spawn = (Vector2)availableSpawns.GetByIndex(Random.Range(0,availableSpawns.Count));
+				GameObject temp = (GameObject)Instantiate(player,gridToWorld(spawn),Quaternion.identity);
+				Player p = temp.GetComponent<Player>();
+				p.setID(id);
+				p.gridPosition = spawn;
+				players[id] = p;
+				inputs.players[id] = p;
+			}
+		}
+		else{
+			inputs.players[id] = predeterminedSpawn(id);
 		}
 	}
 
+	public Player predeterminedSpawn(int id){
+		GameObject temp = (GameObject)Instantiate (player,spawns[id].transform.position,Quaternion.identity);
+		Player p = temp.GetComponent<Player>();
+		p.setID(id);
+		p.reloadTimer = Time.time;
+		return p;
+	}
 
 	public void getValidSpawns(){
 		for(int k=0;k<xSize;k++){
