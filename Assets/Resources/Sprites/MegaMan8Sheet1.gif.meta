@@ -1,0 +1,2947 @@
+fileFormatVersion: 2
+guid: 8f537cfb8eb0df4428927efdf701f026
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: MegaMan8Sheet1_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1681
+        width: 5
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1679
+        width: 8
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1681
+        width: 11
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1681
+        width: 11
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1683
+        width: 11
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1683
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_6
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1683
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1686
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1690
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1690
+        width: 38
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_10
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1632
+        width: 113
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1632
+        width: 67
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_12
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1631
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_13
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1629
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_14
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1569
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1569
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1569
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_17
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1569
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_18
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1569
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_19
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1569
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1569
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_21
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1569
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1510
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_23
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1510
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_24
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1510
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_25
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1510
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_26
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1510
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1512
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_28
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1512
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1407
+        width: 40
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1452
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_31
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1452
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1452
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_33
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1452
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_34
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1452
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_35
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1452
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_36
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1407
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_37
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1407
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_38
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1407
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_39
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1407
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_40
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1407
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_41
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1407
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_42
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1407
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_43
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1407
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_44
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1407
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_45
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1362
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_46
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1362
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_47
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1362
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_48
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1362
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_49
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1362
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_50
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1362
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_51
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1362
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_52
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1362
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_53
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1362
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_54
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1362
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_55
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1311
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_56
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1311
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_57
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1311
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_58
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1311
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_59
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1311
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1311
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_61
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1311
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_62
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1311
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_63
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1311
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_64
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1311
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_65
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1266
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_66
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1266
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_67
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1266
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_68
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1266
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_69
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1266
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_70
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1266
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_71
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1266
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_72
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1266
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_73
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1216
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1216
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_75
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1216
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_76
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1216
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_77
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1216
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_78
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1216
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_79
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1164
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1164
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_81
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1164
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_82
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1164
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_83
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1164
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_84
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1164
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_85
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1164
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_86
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1164
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_87
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1164
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_88
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1164
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_89
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1164
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_90
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1164
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_91
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1102
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_92
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1102
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_93
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1102
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_94
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1102
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_95
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1102
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_96
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1102
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_97
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1102
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_98
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1102
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_99
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1102
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_100
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1102
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_101
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1041
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_102
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1041
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_103
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1041
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_104
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1041
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_105
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1041
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_106
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1041
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_107
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1041
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_108
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1041
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_109
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1041
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_110
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1041
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_111
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1041
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_112
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1041
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_113
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1041
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_114
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1041
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_115
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1041
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_116
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1041
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_117
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 992
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_118
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 991
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_119
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 992
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_120
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 992
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_121
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 992
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_122
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 992
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_123
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 991
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_124
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 992
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 940
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_126
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 940
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_127
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 940
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_128
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 940
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_129
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 940
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_130
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 940
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_131
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 940
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_132
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 940
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_133
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 940
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_134
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 940
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_135
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 888
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_136
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 888
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_137
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 888
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_138
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 888
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_139
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 888
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_140
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 888
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_141
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 841
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_142
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 841
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_143
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 841
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_144
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 841
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_145
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 841
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_146
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 841
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_147
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 841
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_148
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 841
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_149
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 778
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_150
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 778
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_151
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 778
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_152
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 778
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_153
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 778
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_154
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 778
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_155
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 778
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_156
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 778
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_157
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 778
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_158
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 778
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_159
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 778
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_160
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 778
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_161
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 713
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_162
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 713
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_163
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 713
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_164
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 713
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_165
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 713
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_166
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 713
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_167
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 713
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_168
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 713
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_169
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 713
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_170
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 713
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_171
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 713
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_172
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 713
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_173
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 659
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_174
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 659
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_175
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 659
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_176
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 599
+        width: 45
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_177
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 659
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_178
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 659
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_179
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 659
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_180
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 659
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_181
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 659
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_182
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 659
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_183
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 659
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_184
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 659
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_185
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 659
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_186
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 599
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_187
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 599
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_188
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 599
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_189
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 599
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_190
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 599
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_191
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 599
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_192
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 544
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_193
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 544
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_194
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 544
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_195
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 544
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_196
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 544
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_197
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 544
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_198
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 544
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_199
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 544
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_200
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 544
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_201
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 544
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_202
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 544
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_203
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 544
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_204
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 544
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_205
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 544
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 489
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_207
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 489
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_208
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 489
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_209
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 489
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_210
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 489
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_211
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 489
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_212
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 461
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_213
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 466
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_214
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 473
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_215
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 475
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_216
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 430
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_217
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 430
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_218
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 430
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_219
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 430
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_220
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 475
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_221
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 473
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_222
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 466
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_223
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 466
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_224
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 459
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_225
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 459
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_226
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 443
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_227
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 452
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_228
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 452
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_229
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 434
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_230
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 443
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_231
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 376
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_232
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 434
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_233
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 376
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_234
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 376
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_235
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 376
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_236
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 376
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_237
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 376
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_238
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 376
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_239
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 376
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_240
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 376
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_241
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 376
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_242
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 333
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_243
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 333
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_244
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 333
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_245
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 333
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_246
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 333
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_247
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 333
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_248
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 282
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_249
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 282
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_250
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 282
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_251
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 282
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_252
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 282
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_253
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 282
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_254
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 282
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_255
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 282
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_256
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 282
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_257
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 282
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_258
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 237
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_259
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 237
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_260
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 237
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_261
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 237
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_262
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 237
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_263
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 237
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_264
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 237
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_265
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 237
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_266
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 237
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_267
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 237
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_268
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 185
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_269
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 185
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_270
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 185
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_271
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 185
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_272
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 185
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_273
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 185
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_274
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 185
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_275
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 185
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_276
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 185
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_277
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 185
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_278
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 185
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_279
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 185
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_280
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 134
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_281
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 134
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_282
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 134
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_283
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 134
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_284
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 134
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_285
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 134
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_286
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 134
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_287
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 134
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_288
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 118
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_289
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 120
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_290
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 75
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_291
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 75
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_292
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 75
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_293
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 62
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_294
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 75
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_295
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 75
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_296
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 118
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_297
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 111
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_298
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 78
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_299
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 78
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_300
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 62
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_301
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 50
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_302
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 62
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_303
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 62
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_304
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 14
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_305
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 14
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_306
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 50
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_307
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 50
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_308
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_309
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 14
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_310
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_311
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 42
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_312
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 42
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_313
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 35
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_314
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 17
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_315
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 14
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_316
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 35
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_317
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 17
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_318
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 17
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_319
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 14
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_320
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 26
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MegaMan8Sheet1_321
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 17
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 

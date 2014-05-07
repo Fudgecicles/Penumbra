@@ -31,12 +31,17 @@ public class Player : MonoBehaviour {
 	Vector2 prevPos;
 	float distMoved;
 	GameObject deathParticle;
+	Color[] colors;
 	
 	// Use this for initialization
 	void Start () {
+		colors = new Color[4];
+		colors[0] = new Color(0,0,0);
+		colors[1] = new Color(.89f, .086f,.086f);
+		colors[2] = new Color(1,0,.086f);
+		colors[3] = new Color(1,.565f,.565f);
 		deathParticle =  (GameObject)Resources.Load("Prefabs/deathParticle");
 		prevPos = transform.position;
-		gun = transform.FindChild("Gun");
 		light = (GameObject)Resources.Load("Prefabs/Lights/GunFlash");
 		gridParent = GameObject.Find ("SceneSetup");
 		reloading = false;
@@ -83,6 +88,17 @@ public class Player : MonoBehaviour {
 		}
 		
 		// fire gun
+	}
+
+	public void setID(int num){
+		id = num;
+		gun = transform.Find("Dude/Gun");
+		colors = new Color[4];
+		colors[0] = new Color(1,1,1);
+		colors[1] = new Color(.89f, .086f,.086f);
+		colors[2] = new Color(1,0,.086f);
+		colors[3] = new Color(1,.565f,.565f);
+		gun.GetComponent<SpriteRenderer>().color = colors[id];
 	}
 
 	public void moveUp(){
