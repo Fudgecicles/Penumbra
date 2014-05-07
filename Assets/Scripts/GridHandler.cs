@@ -64,6 +64,7 @@ public class GridHandler : MonoBehaviour {
 	}
 
 	public void respawnPlayer(int id){
+		print (id);
 		lives[id] -= 1;
 		if(lives[id]>0){
 			availableSpawns = new SortedList();
@@ -72,6 +73,7 @@ public class GridHandler : MonoBehaviour {
 			GameObject temp = (GameObject)Instantiate(player,gridToWorld(spawn),Quaternion.identity);
 			Player p = temp.GetComponent<Player>();
 			p.id = id;
+			p.inputNum = id;
 			p.gridPosition = spawn;
 			players[id] = p;
 		}

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class PlayerController1 : MonoBehaviour {
 
+	public int id;
 	bool moving;
 	float speed;
 	private GridHandler grid;
@@ -30,6 +31,7 @@ public class PlayerController1 : MonoBehaviour {
 	Vector2 prevPos;
 	float distMoved;
 	GameObject deathParticle;
+	int inputNum;
 
 	// Use this for initialization
 	void Start () {
@@ -61,10 +63,10 @@ public class PlayerController1 : MonoBehaviour {
 		}
 		//inputs
 
-		if(Input.GetKey (KeyCode.UpArrow)){
-			dir = Direction.up;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
+		//		if(Input.GetKey (KeyCode.UpArrow)){
+		if (Input.GetAxis ("p1_MoveY") >= 0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.up);
+			//			anim[1].SetInteger("dir",(int)dir);
 			if(!moving){
 				if(checkIfCanMove(gridPosition,Direction.up)){
 					setMovement (Direction.up,new Vector2(gridPosition.x,gridPosition.y+1));
@@ -72,10 +74,10 @@ public class PlayerController1 : MonoBehaviour {
 				}
 			}
 		}
-		else if (Input.GetKey(KeyCode.LeftArrow)){
-			dir = Direction.left;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
+		//		else if (Input.GetKey(KeyCode.LeftArrow)){
+		else if (Input.GetAxis ("p1_MoveX") <= -0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.left);
+			//			anim[1].SetInteger("dir",(int)dir);
 			if(!moving){
 				if(checkIfCanMove(gridPosition,Direction.left)){
 					setMovement (Direction.left,new Vector2(gridPosition.x-1,gridPosition.y));
@@ -83,10 +85,10 @@ public class PlayerController1 : MonoBehaviour {
 				}				
 			}
 		}
-		else if(Input.GetKey(KeyCode.RightArrow)){
-			dir = Direction.right;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
+		//		else if(Input.GetKey(KeyCode.RightArrow)){
+		else if (Input.GetAxis ("p1_MoveX") >= 0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.right);
+			//			anim[1].SetInteger("dir",(int)dir);
 			if(!moving){
 				if(checkIfCanMove(gridPosition,Direction.right)){
 					setMovement (Direction.right,new Vector2(gridPosition.x+1,gridPosition.y));
@@ -94,16 +96,33 @@ public class PlayerController1 : MonoBehaviour {
 				}
 			}
 		}
-		else if(Input.GetKey(KeyCode.DownArrow)){
-			dir = Direction.down;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
+		//		else if(Input.GetKey(KeyCode.DownArrow)){
+		else if (Input.GetAxis ("p1_MoveY") <= -0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.down);
+			//			anim[1].SetInteger("dir",(int)dir);
 			if(!moving){
 				if(checkIfCanMove(gridPosition,Direction.down)){
 					setMovement (Direction.down,new Vector2(gridPosition.x,gridPosition.y-1));
 					yMoving = true;
 				}
 			}
+		}
+
+		if (Input.GetAxis ("p1_AimY") >= 0.5f) {
+			dir = Direction.up;
+			anim[1].SetInteger("dir",(int)dir);
+		}
+		else if (Input.GetAxis ("p1_AimX") <= -0.5f) {
+			dir = Direction.left;
+			anim[1].SetInteger("dir",(int)dir);
+		}
+		else if (Input.GetAxis ("p1_AimX") >= 0.5f) {
+			dir = Direction.right;
+			anim[1].SetInteger("dir",(int)dir);
+		}
+		else if (Input.GetAxis ("p1_AimY") <= -0.5f) {
+			dir = Direction.down;
+			anim[1].SetInteger("dir",(int)dir);
 		}
 
 		//movement
@@ -125,7 +144,8 @@ public class PlayerController1 : MonoBehaviour {
 		}
 
 		// fire gun
-		if(Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.T) || Input.GetKeyDown(KeyCode.Y) || Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.H) || Input.GetKeyDown(KeyCode.Slash)){
+//		if(Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.T) || Input.GetKeyDown(KeyCode.Y) || Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.H) || Input.GetKeyDown(KeyCode.Slash)){
+		if (Input.GetAxis ("p1_Fire") >= 0.5f) {
 			fireGun();
 		}
 	}
@@ -133,6 +153,7 @@ public class PlayerController1 : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col){
 		if(col.tag == "Bullet"){
 			Instantiate(deathParticle,transform.position,Quaternion.identity);
+			grid.respawnPlayer(id);
 			Destroy(this.gameObject);
 		}
 	}

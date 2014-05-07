@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Player : MonoBehaviour {
-
+	
 	public int id;
 	bool moving;
 	float speed;
@@ -31,6 +31,7 @@ public class Player : MonoBehaviour {
 	Vector2 prevPos;
 	float distMoved;
 	GameObject deathParticle;
+	public int inputNum;
 	
 	// Use this for initialization
 	void Start () {
@@ -62,7 +63,67 @@ public class Player : MonoBehaviour {
 		}
 		//inputs
 		
-
+		//		if(Input.GetKey (KeyCode.UpArrow)){
+		if (Input.GetAxis ("p"+inputNum+"_MoveY") >= 0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.up);
+			//			anim[1].SetInteger("dir",(int)dir);
+			if(!moving){
+				if(checkIfCanMove(gridPosition,Direction.up)){
+					setMovement (Direction.up,new Vector2(gridPosition.x,gridPosition.y+1));
+					yMoving = true;
+				}
+			}
+		}
+		//		else if (Input.GetKey(KeyCode.LeftArrow)){
+		else if (Input.GetAxis ("p"+inputNum+"_MoveX") <= -0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.left);
+			//			anim[1].SetInteger("dir",(int)dir);
+			if(!moving){
+				if(checkIfCanMove(gridPosition,Direction.left)){
+					setMovement (Direction.left,new Vector2(gridPosition.x-1,gridPosition.y));
+					xMoving = true;
+				}				
+			}
+		}
+		//		else if(Input.GetKey(KeyCode.RightArrow)){
+		else if (Input.GetAxis ("p"+inputNum+"_MoveX") >= 0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.right);
+			//			anim[1].SetInteger("dir",(int)dir);
+			if(!moving){
+				if(checkIfCanMove(gridPosition,Direction.right)){
+					setMovement (Direction.right,new Vector2(gridPosition.x+1,gridPosition.y));
+					xMoving = true;
+				}
+			}
+		}
+		//		else if(Input.GetKey(KeyCode.DownArrow)){
+		else if (Input.GetAxis ("p"+inputNum+"_MoveY") <= -0.5f) {
+			anim[0].SetInteger("dir",(int)Direction.down);
+			//			anim[1].SetInteger("dir",(int)dir);
+			if(!moving){
+				if(checkIfCanMove(gridPosition,Direction.down)){
+					setMovement (Direction.down,new Vector2(gridPosition.x,gridPosition.y-1));
+					yMoving = true;
+				}
+			}
+		}
+		
+		if (Input.GetAxis ("p"+inputNum+"_AimY") >= 0.5f) {
+			dir = Direction.up;
+			anim[1].SetInteger("dir",(int)dir);
+		}
+		else if (Input.GetAxis ("p"+inputNum+"_AimX") <= -0.5f) {
+			dir = Direction.left;
+			anim[1].SetInteger("dir",(int)dir);
+		}
+		else if (Input.GetAxis ("p"+inputNum+"_AimX") >= 0.5f) {
+			dir = Direction.right;
+			anim[1].SetInteger("dir",(int)dir);
+		}
+		else if (Input.GetAxis ("p"+inputNum+"_AimY") <= -0.5f) {
+			dir = Direction.down;
+			anim[1].SetInteger("dir",(int)dir);
+		}
 		
 		//movement
 		if(moving){
@@ -83,63 +144,12 @@ public class Player : MonoBehaviour {
 		}
 		
 		// fire gun
+		//		if(Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.T) || Input.GetKeyDown(KeyCode.Y) || Input.GetKeyDown(KeyCode.F) || Input.GetKeyDown(KeyCode.G) || Input.GetKeyDown(KeyCode.H) || Input.GetKeyDown(KeyCode.Slash)){
+		if (Input.GetAxis ("p"+inputNum+"_Fire") >= 0.5f) {
+			fireGun();
+		}
 	}
-
-	public void moveUp(){
-
-			dir = Direction.up;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.up)){
-					setMovement (Direction.up,new Vector2(gridPosition.x,gridPosition.y+1));
-					yMoving = true;
-				}
-			}
-
-
-	}
-
-	public void moveLeft(){
-			dir = Direction.left;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.left)){
-					setMovement (Direction.left,new Vector2(gridPosition.x-1,gridPosition.y));
-					xMoving = true;
-				}				
-			}
-
-
-	}
-
-	public void moveRight(){
-			dir = Direction.right;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.right)){
-					setMovement (Direction.right,new Vector2(gridPosition.x+1,gridPosition.y));
-					xMoving = true;
-				}
-			}
-
-	}
-
-	public void moveDown(){
-			dir = Direction.down;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.down)){
-					setMovement (Direction.down,new Vector2(gridPosition.x,gridPosition.y-1));
-					yMoving = true;
-				}
-			}
-
-	}
-
+	
 	void OnTriggerEnter2D(Collider2D col){
 		if(col.tag == "Bullet"){
 			Instantiate(deathParticle,transform.position,Quaternion.identity);
@@ -236,5 +246,5 @@ public class Player : MonoBehaviour {
 	Vector2 gridToWorld(){
 		return new Vector2(gridPosition.x+.5f,gridPosition.y+.5f);
 	}
-
+	
 }
