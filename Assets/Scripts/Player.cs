@@ -32,9 +32,11 @@ public class Player : MonoBehaviour {
 	float distMoved;
 	GameObject deathParticle;
 	Color[] colors;
+	AudioSource[] sources;
 	
 	// Use this for initialization
 	void Start () {
+		sources = GetComponents<AudioSource>();
 		colors = new Color[4];
 		colors[0] = new Color(0,0,0);
 		colors[1] = new Color(.89f, .086f,.086f);
@@ -64,6 +66,8 @@ public class Player : MonoBehaviour {
 		//Debug.Log(grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isBotOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isRightOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isLeftOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isTopOpen());
 		if(Time.time-reloadTimer >2){
 			reloading = false;
+			if(Input.GetKeyDown(KeyCode.P))
+				StartCoroutine("startFire");
 		}
 		//inputs
 		
@@ -174,10 +178,18 @@ public class Player : MonoBehaviour {
 		targetPos = gridToWorld ();
 		moving = true;
 	}
-	
+
+	IEnumerator startFire(){
+		sources[0].Play();
+		yield return new WaitForSeconds(.5f);
+		fireGun();
+		yield return new WaitForSeconds(.1f);
+		sources[2].Play ();
+	}
+
 	void fireGun(){
 		if(Time.time - fireTime >2){
-			audio.Play();
+			sources[1].Play();
 			reloading = true;
 			reloadTimer = Time.time;
 			fireTime = Time.time;
