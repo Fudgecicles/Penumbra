@@ -11,7 +11,7 @@ public class ExitToLevelScreen : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Escape)) {
-			Application.LoadLevel (2);
+			Application.LoadLevel (3);
 		}
 	}
 }
