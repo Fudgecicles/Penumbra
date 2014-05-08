@@ -145,19 +145,18 @@ public class InputHandler : MonoBehaviour {
 				players[inputs[k+2]].shootGun();
 			}
 
-			if(Input.GetAxis("p"+k+"_Start")>=.5f){
+			if(Input.GetAxis("p"+k+"_Start")>0f){
 				storeOpen = true;
 			}
-
-			if (storeOpen) {
-				if (GameObject.Find ("Store(Clone)") == null) {
-					Instantiate (Resources.Load("Prefabs/Store"),Camera.main.transform.position,Quaternion.identity);
-				}
+		}
+		if (storeOpen) {
+			if (GameObject.Find ("Store(Clone)") == null) {
+				Instantiate (Resources.Load("Prefabs/Store"),Camera.main.transform.position,Quaternion.identity);
 			}
-			else {
-				if (GameObject.Find ("Store(Clone)") != null) {
-					Destroy(GameObject.Find ("Store(Clone)"));
-				}
+		}
+		else {
+			if (GameObject.Find ("Store(Clone)") != null) {
+				Destroy(GameObject.Find ("Store(Clone)"));
 			}
 		}
 

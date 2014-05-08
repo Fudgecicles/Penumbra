@@ -15,7 +15,7 @@ Platform assembly: D:\Users\Aaron Hong\Documents\GitHub\Penumbra\Penumbra_Data\M
 Loading D:\Users\Aaron Hong\Documents\GitHub\Penumbra\Penumbra_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\Users\Aaron Hong\Documents\GitHub\Penumbra\Penumbra_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
 Loading D:\Users\Aaron Hong\Documents\GitHub\Penumbra\Penumbra_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
-- Completed reload, in  0.042 seconds
+- Completed reload, in  0.054 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -30,166 +30,33 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename:  Line: -1)
 
 Unsupported: Hidden/NoiseAndGrainDX11
-UnloadTime: 0.223344 ms
+UnloadTime: 0.237453 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2779.
-Total: 0.685342 ms (FindLiveObjects: 0.087356 ms CreateObjectMapping: 0.025516 ms MarkObjects: 0.179816 ms  DeleteObjects: 0.005403 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2784.
+Total: 0.805720 ms (FindLiveObjects: 0.098763 ms CreateObjectMapping: 0.040526 ms MarkObjects: 0.230248 ms  DeleteObjects: 0.006304 ms)
 
 Platform assembly: D:\Users\Aaron Hong\Documents\GitHub\Penumbra\Penumbra_Data\Managed\Boo.Lang.dll (this message is harmless)
 0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-UnloadTime: 2.505719 ms
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 494 unused Assets to reduce memory usage. Loaded Objects now: 859.
-Total: 11.398665 ms (FindLiveObjects: 0.036023 ms CreateObjectMapping: 0.053134 ms MarkObjects: 0.124280 ms  DeleteObjects: 10.807885 ms)
-
-0
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-UnloadTime: 0.912289 ms
+UnloadTime: 2.208827 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 7.203155 ms (FindLiveObjects: 0.048031 ms CreateObjectMapping: 0.025816 ms MarkObjects: 0.166607 ms  DeleteObjects: 6.556537 ms)
-
-317
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+Unloading 259 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 1.275224 ms (FindLiveObjects: 0.065442 ms CreateObjectMapping: 0.033921 ms MarkObjects: 0.175013 ms  DeleteObjects: 0.640914 ms)
 
 0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-9 4right
+NullReferenceException: Object reference not set to an instance of an object
+  at tutorialText.Start () [0x00000] in <filename unknown>:0 
  
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+(Filename:  Line: -1)
 
-10 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-11 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-14 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-15 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-16 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-17 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 5top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 10top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 11top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 12top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 13top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 14top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 15top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 16top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-6 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(8.0, 4.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-32
+1
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
@@ -197,135 +64,7 @@ Total: 7.203155 ms (FindLiveObjects: 0.048031 ms CreateObjectMapping: 0.025816 m
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-14 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-15 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-16 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-17 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 5top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 2bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(13.0, 4.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-14 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-15 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-16 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-17 4right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 5top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 10top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 11top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 12top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 13top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 14top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-11 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-10 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-6 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(12.0, 4.0)
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
@@ -333,143 +72,7 @@ Total: 7.203155 ms (FindLiveObjects: 0.048031 ms CreateObjectMapping: 0.025816 m
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-13 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-14 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-15 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 10top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 11top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 12top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 13top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 14top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 5bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 4bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(12.0, 6.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-10 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-11 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-12 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-13 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-14 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-15 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 6bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 5bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 4bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 2bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-6 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-4 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-3 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-2 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(7.0, 7.0)
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
@@ -477,267 +80,17 @@ Total: 7.203155 ms (FindLiveObjects: 0.048031 ms CreateObjectMapping: 0.025816 m
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
+1
  
-(Filename:  Line: -1)
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
+0
  
-(Filename:  Line: -1)
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
+0
  
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-UnloadTime: 3.197666 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 862.
-Total: 4.943294 ms (FindLiveObjects: 0.053734 ms CreateObjectMapping: 0.048631 ms MarkObjects: 0.231149 ms  DeleteObjects: 3.763532 ms)
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
 0
  
@@ -750,766 +103,6 @@ Total: 4.943294 ms (FindLiveObjects: 0.053734 ms CreateObjectMapping: 0.048631 m
 1
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-UnloadTime: 0.930301 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 830.
-Total: 1.716809 ms (FindLiveObjects: 0.022514 ms CreateObjectMapping: 0.024916 ms MarkObjects: 0.128182 ms  DeleteObjects: 1.147041 ms)
-
-79
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-2 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-3 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-4 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-6 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 6right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 5bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 4bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(1.0, 6.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-52
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 2bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 1bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(9.0, 3.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 5top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 2bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 1bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 4left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(9.0, 4.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 2top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 3top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 4top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 5top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 0bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(5.0, 1.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-6 2right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-7 2right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-8 2right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-9 2right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 3top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 4top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 5top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-4 2left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-3 2left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(5.0, 2.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(0.0, 7.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-2 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-3 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 6bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 5bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 4bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(1.0, 7.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-NullReferenceException
-  at (wrapper managed-to-native) UnityEngine.Animator:SetIntegerString (string,int)
-  at UnityEngine.Animator.SetInteger (System.String name, Int32 value) [0x00000] in <filename unknown>:0 
-  at Player.moveLeft () [0x00000] in <filename unknown>:0 
-  at InputHandler.Update () [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-UnloadTime: 0.848048 ms
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 856.
-Total: 1.188768 ms (FindLiveObjects: 0.024916 ms CreateObjectMapping: 0.035122 ms MarkObjects: 0.138389 ms  DeleteObjects: 0.589280 ms)
 
 0
  
@@ -1531,13 +124,25 @@ Total: 1.188768 ms (FindLiveObjects: 0.024916 ms CreateObjectMapping: 0.035122 m
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-UnloadTime: 0.911989 ms
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+1
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 832.
-Total: 1.615043 ms (FindLiveObjects: 0.022214 ms CreateObjectMapping: 0.025816 ms MarkObjects: 0.127282 ms  DeleteObjects: 1.051579 ms)
+1
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-79
+UnloadTime: 2.569360 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 2833.
+Total: 0.996644 ms (FindLiveObjects: 0.077149 ms CreateObjectMapping: 0.037524 ms MarkObjects: 0.215239 ms  DeleteObjects: 0.296591 ms)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+1
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
@@ -1545,47 +150,29 @@ Total: 1.615043 ms (FindLiveObjects: 0.022214 ms CreateObjectMapping: 0.025816 m
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-5 2top
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-5 3top
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-5 4top
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-5 5top
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-5 6top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+UnloadTime: 2.582268 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-5 7top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+Unloading 303 unused Assets to reduce memory usage. Loaded Objects now: 869.
+Total: 10.393017 ms (FindLiveObjects: 0.032721 ms CreateObjectMapping: 0.033921 ms MarkObjects: 0.132685 ms  DeleteObjects: 9.781221 ms)
 
-5 8top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 9top
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-5 0bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(5.0, 1.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-50
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
@@ -1593,71 +180,43 @@ Total: 1.615043 ms (FindLiveObjects: 0.022214 ms CreateObjectMapping: 0.025816 m
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
-2 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-3 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 6bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 5bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 4bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(1.0, 7.0)
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-2 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-3 7right
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 6bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 5bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 4bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-1 3bot
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-0 7left
- 
-(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
-
-(1.0, 7.0)
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
 1
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+0
  
 (Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
 
