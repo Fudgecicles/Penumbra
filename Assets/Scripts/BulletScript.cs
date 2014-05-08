@@ -46,10 +46,11 @@ public class BulletScript : MonoBehaviour {
 		distTraveled += (curLoc - prevLoc).magnitude; 
 		if(distTraveled>500){
 			//system.Stop ();
-			collider2D.enabled = false;
-			destroy = true;
-			rigidbody2D.velocity = Vector3.zero;
-			timer = Time.time;
+//			collider2D.enabled = false;
+//			destroy = true;
+//			rigidbody2D.velocity = Vector3.zero;
+//			timer = Time.time;
+			Destroy (this.gameObject);
 		}
 
 

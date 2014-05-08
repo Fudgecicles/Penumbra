@@ -71,15 +71,19 @@ public class InputHandler : MonoBehaviour {
 		//keyboard wasd
 		if(Input.GetKey(KeyCode.W)&&inputs[0]!=-1){
 			players[inputs[0]].moveUp();
+			players[inputs[0]].lookUp();
 		}
 		else if(Input.GetKey(KeyCode.A)&&inputs[0]!=-1){
 			players[inputs[0]].moveLeft();
+			players[inputs[0]].lookLeft();
 		}
 		else if(Input.GetKey(KeyCode.D)&&inputs[0]!=-1){
 			players[inputs[0]].moveRight();
+			players[inputs[0]].lookRight();
 		}
 		else if(Input.GetKey(KeyCode.S)&&inputs[0]!=-1){
 			players[inputs[0]].moveDown();
+			players[inputs[0]].lookDown();
 		}
 		if(Input.GetKey(KeyCode.F)&&inputs[0]!=-1){
 			players[inputs[0]].shootGun();
@@ -87,38 +91,73 @@ public class InputHandler : MonoBehaviour {
 		//arrow keys
 		if(Input.GetKey(KeyCode.UpArrow)&&inputs[1]!=-1){
 			players[inputs[1]].moveUp();
+			players[inputs[1]].lookUp();
 		}
 		else if(Input.GetKey(KeyCode.LeftArrow)&&inputs[1]!=-1){
 			players[inputs[1]].moveLeft();
+			players[inputs[1]].lookLeft();
 		}
 		else if(Input.GetKey(KeyCode.RightArrow)&&inputs[1]!=-1){
 			players[inputs[1]].moveRight();
+			players[inputs[1]].lookRight();
 		}
 		else if(Input.GetKey(KeyCode.DownArrow)&&inputs[1]!=-1){
 			players[inputs[1]].moveDown();
+			players[inputs[1]].lookDown();
 		}
 		if(Input.GetKey(KeyCode.Slash)&&inputs[1]!=-1){
 			players[inputs[1]].shootGun();
 		}
 		//p1controller
+		bool storeOpen = false;
 		for(int k=0;k<4;k++){
 			if (Input.GetAxis ("p"+k+"_MoveY") >= 0.5f&&inputs[k+2]!=-1) {
 				players[inputs[k+2]].moveUp();
+				players[inputs[k+2]].lookUp();
 			}
-			//		else if (Input.GetKey(KeyCode.LeftArrow)){
 			else if (Input.GetAxis ("p"+k+"_MoveX") <= -0.5f&&inputs[k+2]!=-1) {
 				players[inputs[k+2]].moveLeft();
+				players[inputs[k+2]].lookLeft();
 			}
-			//		else if(Input.GetKey(KeyCode.RightArrow)){
 			else if (Input.GetAxis ("p"+k+"_MoveX") >= 0.5f&&inputs[k+2]!=-1) {
 				players[inputs[k+2]].moveRight();
+				players[inputs[k+2]].lookRight();
 			}
-			//		else if(Input.GetKey(KeyCode.DownArrow)){
 			else if (Input.GetAxis ("p"+k+"_MoveY") <= -0.5f&&inputs[k+2]!=-1) {
 				players[inputs[k+2]].moveDown();
+				players[inputs[k+2]].lookDown();
 			}
+
+			if (Input.GetAxis ("p"+k+"_AimY") >= 0.5f&&inputs[k+2]!=-1) {
+				players[inputs[k+2]].lookUp();
+			}
+			else if (Input.GetAxis ("p"+k+"_AimX") <= -0.5f&&inputs[k+2]!=-1) {
+				players[inputs[k+2]].lookLeft();
+			}
+			else if (Input.GetAxis ("p"+k+"_AimX") >= 0.5f&&inputs[k+2]!=-1) {
+				players[inputs[k+2]].lookRight();
+			}
+			else if (Input.GetAxis ("p"+k+"_AimY") <= -0.5f&&inputs[k+2]!=-1) {
+				players[inputs[k+2]].lookDown();
+			}
+
 			if(Input.GetAxis("p"+k+"_Fire")>=.5f&&inputs[k+2]!=-1){
 				players[inputs[k+2]].shootGun();
+			}
+
+			if(Input.GetAxis("p"+k+"_Start")>=.5f){
+				storeOpen = true;
+			}
+
+			if (storeOpen) {
+				if (GameObject.Find ("Store(Clone)") == null) {
+					Instantiate (Resources.Load("Prefabs/Store"),Camera.main.transform.position,Quaternion.identity);
+				}
+			}
+			else {
+				if (GameObject.Find ("Store(Clone)") != null) {
+					Destroy(GameObject.Find ("Store(Clone)"));
+				}
 			}
 		}
 

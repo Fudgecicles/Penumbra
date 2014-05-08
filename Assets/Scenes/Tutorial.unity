@@ -3498,6 +3498,10 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 100010, guid: 98330a1a76ddb7d4884b5dd2a5f59862, type: 2}
+    - target: {fileID: 11400008, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
+      propertyPath: numPlayers
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400010, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
     - {fileID: 9200000, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
@@ -3895,6 +3899,7 @@ GameObject:
   - 114: {fileID: 185341269}
   - 114: {fileID: 185341264}
   - 114: {fileID: 185341265}
+  - 92: {fileID: 185341266}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Actual Main Camera
@@ -3946,6 +3951,13 @@ MonoBehaviour:
   noiseTexture: {fileID: 2800000, guid: 7a632f967e8ad42f5bd275898151ab6a, type: 3}
   noiseShader: {fileID: 4800000, guid: b0249d8c935344451aa4de6db76f0688, type: 3}
   dx11NoiseShader: {fileID: 4800000, guid: 8b30686bb4322ab42ad5eb50a0210b58, type: 3}
+--- !u!92 &185341266
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185341263}
+  m_Enabled: 1
 --- !u!20 &185341267
 Camera:
   m_ObjectHideFlags: 0
@@ -6233,7 +6245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b54dc5d224a004e8ea91f467a6e17b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 0
+  level: 1
 --- !u!1 &326611963
 GameObject:
   m_ObjectHideFlags: 0
@@ -15329,9 +15341,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPlayer: 0
-  numPlayers: 0
+  numPlayers: 4
   player: {fileID: 100010, guid: 98330a1a76ddb7d4884b5dd2a5f59862, type: 2}
   mapBackground: {fileID: 759837813}
+  lives: 
 --- !u!114 &786260683
 MonoBehaviour:
   m_ObjectHideFlags: 0

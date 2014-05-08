@@ -3643,6 +3643,10 @@ Prefab:
       propertyPath: player
       value: 
       objectReference: {fileID: 100010, guid: 98330a1a76ddb7d4884b5dd2a5f59862, type: 2}
+    - target: {fileID: 11400008, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
+      propertyPath: numPlayers
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400010, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
     - {fileID: 11400002, guid: 332196cd0f90f3f488cdf00216cae238, type: 2}
@@ -4028,6 +4032,7 @@ GameObject:
   - 114: {fileID: 185341269}
   - 114: {fileID: 185341264}
   - 114: {fileID: 185341271}
+  - 92: {fileID: 185341265}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Actual Main Camera
@@ -4053,6 +4058,13 @@ MonoBehaviour:
   blurIterations: 1
   blurType: 0
   fastBloomShader: {fileID: 4800000, guid: 68a00c837b82e4c6d92e7da765dc5f1d, type: 3}
+--- !u!92 &185341265
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 185341263}
+  m_Enabled: 1
 --- !u!20 &185341267
 Camera:
   m_ObjectHideFlags: 0
@@ -17911,9 +17923,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPlayer: 0
-  numPlayers: 0
+  numPlayers: 4
   player: {fileID: 100010, guid: 98330a1a76ddb7d4884b5dd2a5f59862, type: 2}
   mapBackground: {fileID: 759837813}
+  lives: 
 --- !u!114 &786260683
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -32,6 +32,7 @@ public class Player : MonoBehaviour {
 	float distMoved;
 	GameObject deathParticle;
 	Color[] colors;
+	float bulletBrightness = 0.3f;
 	AudioSource[] sources;
 	bool fire;
 	
@@ -39,10 +40,10 @@ public class Player : MonoBehaviour {
 	void Start () {
 		sources = GetComponents<AudioSource>();
 		colors = new Color[4];
-		colors[0] = new Color(0,0,0);
-		colors[1] = new Color(.89f, .086f,.086f);
-		colors[2] = new Color(1,0,.086f);
-		colors[3] = new Color(1,.565f,.565f);
+		colors[0] = new Color(1f,0f,0f);
+		colors[1] = new Color(0f,1f,0f);
+		colors[2] = new Color(0f,0f,1f);
+		colors[3] = new Color(0f,1f,0.2f);
 		deathParticle =  (GameObject)Resources.Load("Prefabs/deathParticle");
 		prevPos = transform.position;
 		light = (GameObject)Resources.Load("Prefabs/Lights/GunFlash");
@@ -65,12 +66,17 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//Debug.Log(grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isBotOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isRightOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isLeftOpen() + " " +grid.isTaken((int)gridPosition.x,(int)gridPosition.y).isTopOpen());
-		if(Time.time-reloadTimer >2){
-			reloading = false;
+		if(Time.time-reloadTimer > 2.0f){
 			if(fire){
-				reloadTimer = Time.time;
-				StartCoroutine("startFire");
+				fireGun();
 				fire = false;
+			}
+		}
+		if(Time.time-reloadTimer > 1.6f){
+			if (reloading) {
+				StartCoroutine("reload");
+				sources[0].Play();
+				reloading = false;
 			}
 		}
 
@@ -110,66 +116,82 @@ public class Player : MonoBehaviour {
 		Debug.Log(id);
 		gun = transform.Find("Dude/Gun");
 		colors = new Color[4];
-		colors[0] = new Color(1,1,1);
-		colors[1] = new Color(.89f, .086f,.086f);
-		colors[2] = new Color(.365f,0,1);
-		colors[3] = new Color(1,.565f,.565f);
+		colors[0] = new Color(1f,1f,0f);
+		colors[1] = new Color(1f,0f,0f);
+		colors[2] = new Color(0f,1f,1f);
+		colors[3] = new Color(0f,1f,0.2f);
 		gun.GetComponent<SpriteRenderer>().color = colors[id];
 	}
 
 	public void moveUp(){
-
-			dir = Direction.up;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.up)){
-					setMovement (Direction.up,new Vector2(gridPosition.x,gridPosition.y+1));
-					yMoving = true;
-				}
+		
+		dir = Direction.up;
+		anim[0].SetInteger("dir",(int)dir);
+		if(!moving){
+			if(checkIfCanMove(gridPosition,Direction.up)){
+				setMovement (Direction.up,new Vector2(gridPosition.x,gridPosition.y+1));
+				yMoving = true;
 			}
-
-
+		}
+		
+		
 	}
-
+	
 	public void moveLeft(){
-			dir = Direction.left;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.left)){
-					setMovement (Direction.left,new Vector2(gridPosition.x-1,gridPosition.y));
-					xMoving = true;
-				}				
-			}
-
-
+		dir = Direction.left;
+		anim[0].SetInteger("dir",(int)dir);
+		if(!moving){
+			if(checkIfCanMove(gridPosition,Direction.left)){
+				setMovement (Direction.left,new Vector2(gridPosition.x-1,gridPosition.y));
+				xMoving = true;
+			}				
+		}
+		
+		
 	}
-
+	
 	public void moveRight(){
-			dir = Direction.right;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.right)){
-					setMovement (Direction.right,new Vector2(gridPosition.x+1,gridPosition.y));
-					xMoving = true;
-				}
+		dir = Direction.right;
+		anim[0].SetInteger("dir",(int)dir);
+		if(!moving){
+			if(checkIfCanMove(gridPosition,Direction.right)){
+				setMovement (Direction.right,new Vector2(gridPosition.x+1,gridPosition.y));
+				xMoving = true;
 			}
-
+		}
+		
+	}
+	
+	public void moveDown(){
+		dir = Direction.down;
+		anim[0].SetInteger("dir",(int)dir);
+		if(!moving){
+			if(checkIfCanMove(gridPosition,Direction.down)){
+				setMovement (Direction.down,new Vector2(gridPosition.x,gridPosition.y-1));
+				yMoving = true;
+			}
+		}
+		
 	}
 
-	public void moveDown(){
-			dir = Direction.down;
-			anim[0].SetInteger("dir",(int)dir);
-			anim[1].SetInteger("dir",(int)dir);
-			if(!moving){
-				if(checkIfCanMove(gridPosition,Direction.down)){
-					setMovement (Direction.down,new Vector2(gridPosition.x,gridPosition.y-1));
-					yMoving = true;
-				}
-			}
-
+	public void lookUp(){
+		dir = Direction.up;
+		anim[1].SetInteger("dir",(int)dir);	
+	}
+	
+	public void lookLeft(){
+		dir = Direction.left;
+		anim[1].SetInteger("dir",(int)dir);
+	}
+	
+	public void lookRight(){
+		dir = Direction.right;
+		anim[1].SetInteger("dir",(int)dir);
+	}
+	
+	public void lookDown(){
+		dir = Direction.down;
+		anim[1].SetInteger("dir",(int)dir);
 	}
 
 	void OnTriggerEnter2D(Collider2D col){
@@ -192,27 +214,38 @@ public class Player : MonoBehaviour {
 		moving = true;
 	}
 
-	IEnumerator startFire(){
+//	IEnumerator startFire(){
+//		sources[0].Play();
+//		yield return new WaitForSeconds(.5f);
+//		fireGun();
+//		yield return new WaitForSeconds(.2f);
+//		sources[2].Play ();
+//	}
+
+	IEnumerator reload(){
 		sources[0].Play();
 		yield return new WaitForSeconds(.5f);
-		fireGun();
-		yield return new WaitForSeconds(.2f);
 		sources[2].Play ();
 	}
 
 	void fireGun(){
 		if(Time.time - fireTime >2){
 			sources[1].Play();
-			reloading = true;
 			reloadTimer = Time.time;
 			fireTime = Time.time;
+			reloading = true;
 			if(dir == Direction.up){
 				Instantiate(light,new Vector3(topShot.transform.position.x,topShot.transform.position.y,topShot.transform.position.z+Random.Range(0,5)),Quaternion.identity);
-				Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,15));
-				Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,7.5f));
-				Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,-7.5f));
-				Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,-15));
-				Instantiate(bullet,topShot.transform.position,Quaternion.identity);
+				GameObject middle = (GameObject) Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,15));
+				GameObject farRight = (GameObject) Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,7.5f));
+				GameObject farLeft = (GameObject) Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,-7.5f));
+				GameObject slightLeft = (GameObject) Instantiate(bullet,topShot.transform.position,Quaternion.Euler(0,0,-15));
+				GameObject slightRight = (GameObject) Instantiate(bullet,topShot.transform.position,Quaternion.identity);
+				middle.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
 				Instantiate(fireCone,topShot.transform.position,Quaternion.identity);
 			}
 			if(dir == Direction.left){
@@ -222,6 +255,11 @@ public class Player : MonoBehaviour {
 				GameObject farLeft = (GameObject) Instantiate(bullet,leftShot.transform.position,Quaternion.Euler(0,0,82.5f));
 				GameObject slightLeft = (GameObject) Instantiate(bullet,leftShot.transform.position,Quaternion.Euler(0,0,75));
 				GameObject slightRight = (GameObject) Instantiate(bullet,leftShot.transform.position,Quaternion.Euler(0,0,90));
+				middle.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
 				Instantiate(fireCone,leftShot.transform.position,Quaternion.Euler(0,0,90));
 				
 			}
@@ -232,6 +270,11 @@ public class Player : MonoBehaviour {
 				GameObject farLeft = (GameObject) Instantiate(bullet,rightShot.transform.position,Quaternion.Euler(0,0,-82.5f));
 				GameObject slightLeft = (GameObject) Instantiate(bullet,rightShot.transform.position,Quaternion.Euler(0,0,-75));
 				GameObject slightRight = (GameObject) Instantiate(bullet,rightShot.transform.position,Quaternion.Euler(0,0,-90));
+				middle.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
 				Instantiate(fireCone,rightShot.transform.position,Quaternion.Euler(0,0,-90));
 				
 			}
@@ -242,6 +285,11 @@ public class Player : MonoBehaviour {
 				GameObject farLeft = (GameObject) Instantiate(bullet,bottomShot.transform.position,Quaternion.Euler(0,0,172.5f));
 				GameObject slightLeft = (GameObject) Instantiate(bullet,bottomShot.transform.position,Quaternion.Euler(0,0,165));
 				GameObject slightRight = (GameObject) Instantiate(bullet,bottomShot.transform.position,Quaternion.Euler(0,0,180));
+				middle.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				farLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightLeft.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
+				slightRight.particleSystem.startColor = gun.GetComponent<SpriteRenderer>().color + new Color(bulletBrightness,bulletBrightness,bulletBrightness);
 				Instantiate(fireCone,bottomShot.transform.position,Quaternion.Euler(0,0,-180));
 				
 			}

@@ -15,17 +15,17 @@ public class GridHandler : MonoBehaviour {
 	public GameObject mapBackground;
 	private int xSize;
 	private int ySize;
-	private int[] lives;
+	public int[] lives;
 	GameObject[] spawns;
 	InputHandler inputs;
 
 	// Use this for initialization
 	void Awake () {
 
-		lives = new int[numPlayers];
-		for(int k=0;k<numPlayers;k++){
-			lives[k] = 3;
-		}
+//		lives = new int[numPlayers];
+//		for(int k=0;k<numPlayers;k++){
+//			lives[k] = 3;
+//		}
 		availableSpawns = new SortedList();
 		players = new List<Player>();
 		xSize = (int) mapBackground.renderer.bounds.size.x;
@@ -40,6 +40,11 @@ public class GridHandler : MonoBehaviour {
 	}
 
 	void Start(){
+		lives = new int[numPlayers];
+		for(int k=0;k<numPlayers;k++){
+			lives[k] = 3;
+		}
+
 
 		if(spawnPlayer){
 			StartCoroutine(initialSpawn());
@@ -94,6 +99,21 @@ public class GridHandler : MonoBehaviour {
 				p.gridPosition = spawn;
 				players[id] = p;
 				inputs.players[id] = p;
+			}
+			else {
+				int playersAlive = 0;
+				int lastPlayerChecked = 0;
+				for(int k=0;k<numPlayers;k++){
+					if (lives[k] > 0) {
+						playersAlive++;
+						lastPlayerChecked = k;
+					}
+				}
+				if (playersAlive <= 1) {
+					//lastPlayerChecked is the winner
+					GameObject newWinText = (GameObject) Instantiate (Resources.Load("Prefabs/WinText"),Camera.main.transform.position,Quaternion.identity);
+					newWinText.GetComponent<SpriteRenderer>().color = players[lastPlayerChecked].transform.FindChild("Dude/Gun").GetComponent<SpriteRenderer>().color + new Color(0.5f,0.5f,0.5f);
+				}
 			}
 		}
 		else{
